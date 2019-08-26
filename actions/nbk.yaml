@@ -22,7 +22,7 @@ parameters:
         required: true
         position: 1
       pgc:
-        type: int
+        type: integer
         description: book pagecount 
         required: true
         position: 1
