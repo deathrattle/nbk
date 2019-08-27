@@ -5,7 +5,7 @@ from st2common.runners.base_action import Action
 class Myclass(Action):
     def run(self,id,title,desc,pgc,exc,pbp):
       try:
-            x = {"ID": id, "TITLE": title, "Description": desc, "PageCount":pgc, "Excerpt": exc, "PublishDate": pbd }
+            x = {"ID": id, "TITLE": title, "Description": desc, "PageCount":pgc, "Excerpt": exc, "PublishDate": pbp }
             x1= json.dumps(x)
             url='https://fakerestapi.azurewebsites.net/api/Books'
             headers='Content-Type: application/json'
