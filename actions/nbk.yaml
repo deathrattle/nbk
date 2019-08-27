@@ -20,19 +20,19 @@ parameters:
         type: string
         description: book Description 
         required: true
-        position: 1
+        position: 2
       pgc:
         type: integer
         description: book pagecount 
         required: true
-        position: 1
+        position: 3
       exc:
         type: string
         description: book excerpts 
         required: true
-        position: 1
+        position: 4
       pbp:
         type: string
         description: book publishdate 
         required: true
-        position: 1
+        position: 5
