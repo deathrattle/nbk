@@ -6,33 +6,33 @@ description: trying an action to show book id!
 enabled: true
 entry_point: nbk.py
 parameters:
-     id:
-        type: integer
-        description: book id  
-        required: true
-        position: 0
-     title:
-        type: string
-        description: book title 
-        required: true
-        position: 1
-      desc:
-        type: string
-        description: book Description 
-        required: true
-        position: 2
-      pgc:
-        type: integer
-        description: book pagecount 
-        required: true
-        position: 3
-      exc:
-        type: string
-        description: book excerpts 
-        required: true
-        position: 4
-      pbp:
-        type: string
-        description: book publishdate 
-        required: true
-        position: 5
+           id:
+               type: integer
+               description: book id  
+               required: true
+               position: 0
+           title:
+               type: string
+               description: book title 
+               required: true
+               position: 1
+           desc:
+               type: string
+               description: book Description 
+               required: true
+               position: 2
+           pgc:
+               type: integer
+               description: book pagecount 
+               required: true
+               position: 3
+           exc:
+               type: string
+               description: book excerpts 
+               required: true
+               position: 4
+           pbp:
+               type: string
+               description: book publishdate 
+               required: true
+               position: 5
