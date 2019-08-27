@@ -10,7 +10,7 @@ python_versions:
   - "2"
   - "3"
 # Name of the pack author.
-author: xyz
+author: Rishabh
 # Email of the pack author.
 email: xyz@nihilent.com
 # Optional list of additional contributors to the pack.
